@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Dec 06 14:01:42 CET 2017
+0.baseType=DIRECTORY
+0.base=D\:\\Projects\\AndroidStudioProjects\\SpinnerEjercicicio15bis1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

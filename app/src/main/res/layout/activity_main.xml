@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tvInstrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instrucciones_feedback"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre"
+        android:inputType="textCapWords|textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="textCapWords|textEmailAddress"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spTipoFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        />
+
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/hint_detalles_feedback"
+        android:inputType="textMultiLine|textLongMessage"
+        android:lines="5"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chkRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/quieres_respuesta"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:textSize="12sp" />
+
+</LinearLayout>
